@@ -1,0 +1,17 @@
+2024-11-06T10:23:45Z, INFO, User logged in from IP 10.0.0.15, session=xyz987, User-Agent=Mozilla/5.0
+2024-11-06T10:23:47Z, GET /api/v1/user/4567/details?session=xyz987&hash=abc123&domain=example.com, 10.0.0.15
+2024-11-06T10:23:49Z, 123-45-6789, Date of Birth: 1990-05-15, email=john.doe@example.com, IP=192.168.1.10
+2024-11-06T10:23:50Z, POST /api/v1/user/4567/update, IP=192.168.1.20, email=jane_doe@company.org
+2024-11-06T10:23:55Z, ERROR: Failed to send OTP to user with phone number (555) 123-4567, IP=10.0.0.15
+2024-11-06T10:23:57Z, User 1234567890123456 attempted a payment using credit card 1234-5678-9876-5432, IP=172.16.0.10
+2024-11-06T10:24:01Z, IP Address: 192.168.1.30, MAC Address: 00:14:22:01:23:45, accessing /user/profile
+2024-11-06T10:24:03Z, Transaction with transaction_id=xyz987 processed successfully, Crypto address 0xabc123def4567890abcdef1234567890abcdef12 used.
+2024-11-06T10:24:06Z, IP=172.16.1.5, Payment of $500 initiated using IBAN GB33BUKB20201555555555
+2024-11-06T10:24:08Z, DEBUG: Invalid username and password for user test_user, IP=203.0.113.15
+2024-11-06T10:24:10Z, Security alert: Access denied for MAC address AA:BB:CC:DD:EE:FF from IP 10.0.0.30
+2024-11-06T10:24:12Z, Token expired for user session, IP 10.0.0.35, MAC Address 11:22:33:44:55:66
+2024-11-06T10:24:15Z, Request received at /api/v1/login from IP=192.168.1.40
+2024-11-06T10:24:17Z, 555-555-5555, phone number associated with account "example_account", User-Agent: Chrome
+2024-11-06T10:24:20Z, IP=10.0.0.50, accessing /admin/settings
+2024-11-06T10:24:25Z, Admin access logged for user admin123, IP=10.1.1.10
+2024-11-06T10:24:30Z, User attempted to reset password, email=user1234@domain.com, IP=192.168.1.50, qweqwe.sadas
