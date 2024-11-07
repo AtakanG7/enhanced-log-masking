@@ -1,0 +1,5 @@
+Performance Statistics:
+processed_batches: 202
+total_processing_time: 30.9881
+batch_size_adjustments: 13
+average_processing_time: 0.1534

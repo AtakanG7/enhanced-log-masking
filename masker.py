@@ -15,7 +15,7 @@ def main():
     """Main function for command-line usage"""
     parser = argparse.ArgumentParser(description='PII Detection in Text Files')
     parser.add_argument('input_file', help='Path to input file')
-    parser.add_argument('--batch-size', type=int, default=16,
+    parser.add_argument('--batch-size', type=int, default=32,
                       help='Initial batch size for processing')
     parser.add_argument('--output-file', help='Path to output file (optional)')
     parser.add_argument('--log-level', default='INFO',
